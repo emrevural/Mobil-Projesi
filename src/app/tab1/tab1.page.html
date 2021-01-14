@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-toolbar color="warning">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Film Listesi</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-slides pager="true" [options]="slideOpts">
+        <ion-slide *ngFor="let item of (results | async)" [routerLink]="['/' , 'movie-details', item.imdbID]">
+            <ion-card>
+
+                <img [src]="item.Poster" *ngIf="item.Poster != 'N/A'">
+                <ion-card-header>
+
+                    <ion-card-subtitle>Film Bilgisi
+                        <ion-icon name="search-sharp"></ion-icon>
+                    </ion-card-subtitle>
+
+                    <ion-card-title>{{ item.Title }}</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    Yapım Yılı : {{ item.Year}}
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+    </ion-slides>
+</ion-content>

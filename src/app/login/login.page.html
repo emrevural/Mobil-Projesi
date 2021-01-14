@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-toolbar color="warning">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-title>İzleme Listem</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+    <ion-list>
+        <ion-item>
+
+            <ion-label>Film Adı</ion-label>
+
+            <ion-label> </ion-label>
+            <ion-label> </ion-label>
+
+            <ion-label> Sil</ion-label>
+
+
+        </ion-item>
+
+    </ion-list>
+    <ion-list>
+        <ion-item button *ngFor="let record of records; let i = index">
+            <ion-avatar slot="start">
+                <img [src]="record.imgsrc" *ngIf="record.imgsrc != 'N/A'">
+            </ion-avatar>
+
+            <ion-label text-wrap>
+                <h3>{{ record.name }}</h3>
+                {{ record.name }}
+            </ion-label>
+
+            <ion-button slot="end" size="small" color="danger" (click)="DeleteRecord(record.id)">
+                <ion-icon name="trash-outline"></ion-icon>
+            </ion-button>
+
+        </ion-item>
+    </ion-list>
+</ion-content>
