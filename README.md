@@ -1,5 +1,6 @@
 # Mobil-Projesi
-Omdb apisi ve Firebase veritabanı kullanarak Film Listesi oluşturmak
+Bu proje imdb uygulaması örnek alınarak tasarlanmıştır. Projede ionic frameworku kullanılmıştır.
+Omdb apisi ve Firebase veritabanı kullanarak Film Listesi oluşturulmuştur. Listelenen ya da aranan film veya diziler izleme listesine eklerek kullanılır. 
 # Kurulum
 * 1.Öncelikle nodejs kurulması gerekmekte bunun için [NodeJS indirin.](https://nodejs.org/en/) 
 * 2.Proje dosyalarını indirin
