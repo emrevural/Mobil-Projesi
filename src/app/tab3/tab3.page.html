@@ -6,20 +6,6 @@
         <ion-title>Film Listesi</ion-title>
     </ion-toolbar>
 </ion-header>
-<ion-content>
-    <ion-slides pager="true" [options]="slideOpts">
-        <ion-slide *ngFor="let item of (results | async)" [routerLink]="['/' , 'movie-details', item.imdbID]">
-            <ion-card>
-                <img [src]="item.Poster" *ngIf="item.Poster != 'N/A'">
-                <ion-card-header>
-                    <ion-card-subtitle>{{item.Year}}</ion-card-subtitle>
-                    <ion-card-title>M{{item.Title}}</ion-card-title>
-                </ion-card-header>
-
-            </ion-card>
-        </ion-slide>
-    </ion-slides>
-</ion-content>
 
 <ion-content>
 
