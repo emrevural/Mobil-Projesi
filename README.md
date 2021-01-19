@@ -5,6 +5,7 @@ Emre VURAL
 
 ### Öğrenci No :
 190202118
+#
 Bu proje imdb uygulaması örnek alınarak tasarlanmıştır. Projede ionic frameworku kullanılmıştır.
 Omdb apisi ve Firebase veritabanı kullanarak Film Listesi oluşturulmuştur. Listelenen ya da aranan film veya diziler izleme listesine eklenerek kullanılır. 
 # Kurulum
