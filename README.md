@@ -16,9 +16,9 @@ Omdb apisi ve Firebase veritabanı kullanarak Film Listesi oluşturulmuştur. Li
 <pre><code>$ ionic serve </code></pre>
 Komutlarını girdikten sonra proje 8100 portunda çalışıcaktır.
 #Kullanım
-*Uygulamanın anasayfasında 10 adet film listelenmektedir. Listelenen filmlerin üzerine tıklandığında yeni bir sayfada film hakkında detaylı bilgiler görünür. İzleme listesine ekleme işlemleri bu sayfadan yapılır.
-*Filmler sayfası aranılan filmi bulmak için oluşturulmuştur. Yazdığınız kelimeye göre filmleri listeler ve yine bu listelenen filmlere tıklandığında film hakkında detaylı bilgilere ulaşılır ve izleme listesine ekleme işlemleri bu sayfadan yapılır.
-*Hesabım sayfasında izleme listesine eklediğiniz filmler listelenmektedir. Listeye eklediğiniz filmleri bu sayfadan görüntüleyebilir veya silebilirsiniz.
+* Uygulamanın anasayfasında 10 adet film listelenmektedir. Listelenen filmlerin üzerine tıklandığında yeni bir sayfada film hakkında detaylı bilgiler görünür. İzleme listesine ekleme işlemleri bu sayfadan yapılır.
+* Filmler sayfası aranılan filmi bulmak için oluşturulmuştur. Yazdığınız kelimeye göre filmleri listeler ve yine bu listelenen filmlere tıklandığında film hakkında detaylı bilgilere ulaşılır ve izleme listesine ekleme işlemleri bu sayfadan yapılır.
+* Hesabım sayfasında izleme listesine eklediğiniz filmler listelenmektedir. Listeye eklediğiniz filmleri bu sayfadan görüntüleyebilir veya silebilirsiniz.
 
 # Ekran Görüntüleri
 ![m1](https://user-images.githubusercontent.com/38285946/104811699-660f5780-580e-11eb-8042-b21de6f86096.jpg) 
