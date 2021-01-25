@@ -1,11 +1,4 @@
-# Mobil-Projesi
-
-### Öğrenci Adı :
-Emre VURAL
-
-### Öğrenci No :
-190202118
-#
+* Projede src/environments/environment.ts dosyasında apikey bölümüne  Firebase'in size vermiş polduğu aoikey'i girmelisiniz.
 Bu proje imdb uygulaması örnek alınarak tasarlanmıştır. Projede ionic frameworku kullanılmıştır.
 Omdb apisi ve Firebase veritabanı kullanarak Film Listesi oluşturulmuştur. Listelenen ya da aranan film veya diziler izleme listesine eklenerek kullanılır. 
 # Kurulum
