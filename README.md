@@ -1,10 +1,12 @@
-* Projede src/environments/environment.ts dosyasında apikey bölümüne  Firebase'in size vermiş polduğu aoikey'i girmelisiniz.
+
 Bu proje imdb uygulaması örnek alınarak tasarlanmıştır. Projede ionic frameworku kullanılmıştır.
 Omdb apisi ve Firebase veritabanı kullanarak Film Listesi oluşturulmuştur. Listelenen ya da aranan film veya diziler izleme listesine eklenerek kullanılır. 
 # Kurulum
 * 1.Öncelikle nodejs kurulması gerekmekte bunun için [NodeJS indirin.](https://nodejs.org/en/) 
 * 2.Proje dosyalarını indirin
-* 3.Konsolu açıp proje dizinindeyken ;
+* 3.Projede src/environments/environment.ts dosyasında apikey bölümüne  Firebase'in size vermiş polduğu aoikey'i girmelisiniz.
+* 4.Konsolu açıp proje dizinindeyken ;
+
 <pre><code>$ npm install </code></pre>
 <pre><code>$ ionic serve </code></pre>
 Komutlarını girdikten sonra proje 8100 portunda çalışıcaktır.
